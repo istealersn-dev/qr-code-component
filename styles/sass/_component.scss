@@ -1,0 +1,33 @@
+.qr-code {
+    display: grid;
+    text-align: center;
+    grid-gap: 1.5rem;
+    padding: 1rem;
+    border-radius: $round;
+    background-color: white;
+    max-width: 20.75rem;
+
+    .qr-image {
+        width: 18.75rem;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        border-radius: $round;
+        overflow: hidden;
+    }
+
+    .content {
+        padding-bottom: 1.5rem;
+        padding: 0 0.75rem;
+
+        h1 {
+            padding-bottom: 1rem;
+            color: $dark-blue;
+        }
+
+        p {
+            padding-bottom: 1rem;
+            font-size: $f-para;
+            color: $grayish-blue;
+        }
+    }
+}
