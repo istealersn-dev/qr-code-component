@@ -1,7 +1,7 @@
 .qr-code {
     display: grid;
     text-align: center;
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
     padding: 1.125rem;
     border-radius: $round;
     background-color: white;
@@ -17,7 +17,7 @@
 
     .content {
         padding-bottom: 1.5rem;
-        padding: 0 0.5rem;
+        padding: 0 0.75rem;
 
         h1 {
             padding-bottom: 1rem;
